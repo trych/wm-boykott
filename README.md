@@ -16,7 +16,7 @@ Die Extension befindet sich aktuell im Review-Prozess des Google-Webstores. Da d
 
 ### Manuelle Installation in Google Chrome
 
-1. Zip-Datei der Extension downloaden.
+1. [Zip-Datei der Extension](https://github.com/trych/wm-boykott/releases/download/v1.0.0/wm_boykott_chrome.zip) downloaden.
 2. Zip-Datei in einen Ordner entpacken.
 3. Die Extension-Seite in Google Chrome öffnen. Dazu `chrome://extensions` in die URL-Leiste eingeben.
 4. Oben rechts "Entwicklermodus" aktivieren.
