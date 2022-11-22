@@ -1,0 +1,9 @@
+# System files
+# ------------
+
+.DS_Store
+
+# CSS files
+# ---------------
+
+*.css

@@ -1,0 +1,77 @@
+{
+  "manifest_version": 3,
+  "name": "WM-Boykott",
+  "version": "1.0",
+  "description": "Verbirgt News-Artikel über die Fußballweltmeisterschaft 2022 in Katar auf deutschen News-Websites.",
+
+  "content_scripts": [
+    {
+      "js": [
+        "js/main.js",
+        "js/faz.js"
+      ],
+      "css": [
+        "css/faz.css"
+      ],
+      "matches": [
+        "https://*.faz.net/*"
+      ]
+    },
+    {
+      "js": [
+        "js/main.js",
+        "js/spiegel.js"
+      ],
+      "css": [
+        "css/spiegel.css"
+      ],
+      "matches": [
+        "https://*.spiegel.de/*"
+      ]
+    },
+    {
+      "js": [
+        "js/main.js",
+        "js/sz.js"
+      ],
+      "css": [
+        "css/sz.css"
+      ],
+      "matches": [
+        "https://*.sueddeutsche.de/*"
+      ]
+    },
+    {
+      "js": [
+        "js/main.js",
+        "js/tagesspiegel.js"
+      ],
+      "css": [
+        "css/tagesspiegel.css"
+      ],
+      "matches": [
+        "https://*.tagesspiegel.de/*"
+      ]
+    },
+    {
+      "js": [
+        "js/main.js",
+        "js/zeit.js"
+      ],
+      "css": [
+        "css/zeit.css"
+      ],
+      "matches": [
+        "https://*.zeit.de/*"
+      ]
+    }
+  ],
+
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "64": "images/icon-64.png",
+    "128": "images/icon-128.png"
+  }
+}
