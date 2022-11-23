@@ -6,6 +6,7 @@ const keywords = [
   'Fußball-WM',
   'Fußball-Weltmeisterschaft',
   'FIFA',
+  'Fifa',
   'Katar',
   'Qatar',
   'Katars',
