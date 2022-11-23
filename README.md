@@ -5,6 +5,7 @@ Eine Chrome-Extension, die Artikel-Teaser zur Fußballweltmeisterschaft 2022 in 
 - [spiegel.de](https://www.spiegel.de)
 - [zeit.de](https://www.zeit.de)
 - [sueddeutsche.de](https://www.sueddeutsche.de)
+- [tagesschau.de](https://www.tagesschau.de)
 - [tagesspiegel.de](https://www.tagesspiegel.de)
 - [faz.net](https://www.faz.net)
 
@@ -28,6 +29,22 @@ Die Extension befindet sich aktuell im Review-Prozess des Google-Webstores. Da d
 ### Firefox
 
 Das Firefox-Addon kann direkt über die [Firefox-Addon-Seite](https://addons.mozilla.org/de/firefox/addon/wm-boykott/) installiert werden.
+
+----
+
+## Funktionsweise
+
+Die Extension filtert Wm-Content in zwei Schritten.
+
+1. Zunächst wird Content ausgeblendet, der über die Klasse o.Ä. immer als eindeutiger WM-Content zu identifizieren ist, beispielsweise ein `<div>` mit der Klasse `wm-ticker`.
+
+2. Dann werden alle "generischen" Titelseiten-Teaser durchgeloopt und deren `innerText` auf die vordefinierten Keywords durchsucht. Wenn etwas gefunden wird, wird der jeweilige Teaser ausgeblendet.
+
+Das Ausblenden funktioniert über das Hinzufügen einer CSS-Klasse.
+
+Das Vorgehen hat den Seiteneffekt, dass z.B. auch andere Artikel zum Thema Katar ausgeblendet werden. Wenn man also auf keinen Falls News zum Handelsabkommen zwischen China und Katar verpassen will, dann würde ich dir empfehlen, die Extension nicht zu installieren. Auch Artikel, die sich kritisch mit der WM beschäftigen werden aktuell ausgeblendet.
+
+Die aktuelle Liste der Keywords findet sich [hier](https://github.com/trych/wm-boykott/blob/8c10125368d0732364a795142317986c03e599a0/js/main.js#L1).
 
 ----
 
