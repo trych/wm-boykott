@@ -1,4 +1,4 @@
-# Wm-Boykott
+# WM-Boykott
 
 Eine Chrome-Extension, die Artikel-Teaser zur Fußballweltmeisterschaft 2022 in Katar auf deutschen News-Websites ausblendet. Unterstützt aktuell folgende Websites:
 
