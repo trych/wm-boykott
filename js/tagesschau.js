@@ -1,9 +1,22 @@
-const selectors = [
-  '.teaser',
-  '.teaser--small',
-  '.teaser-xs',
-  '.eilmeldung'
-]
+let selectors;
+
+if(window.location.href === 'https://www.tagesschau.de/allemeldungen/') {
+
+  selectors = [
+    '.linklist li'
+  ]
+
+} else {
+
+  selectors = [
+    '.teaser',
+    '.teaser--small',
+    '.teaser-xs',
+    '.eilmeldung'
+  ]
+
+}
+
 
 searchAndHide(selectors, regex);
 
@@ -29,3 +42,6 @@ if(link) {
   }
 
 }
+
+
+console.log("window.location.href: " + (window.location.href));
