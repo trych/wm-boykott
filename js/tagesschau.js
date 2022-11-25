@@ -2,6 +2,7 @@ const selectors = [
   '.teaser',
   '.teaser--small',
   '.teaser-xs',
+  '.eilmeldung'
 ]
 
 searchAndHide(selectors, regex);

@@ -1,4 +1,5 @@
 const selectors = [
+  '.zon-teaser-lead',
   '.zon-teaser-lead__kicker',
   '.zon-teaser-standard',
   '.zon-teaser-wide',

@@ -15,7 +15,9 @@ const keywords = [
   'Qatarer',
   'Infantino',
   'Nationalmannschaft',
-  'DFB-Elf'
+  'DFB-Elf',
+  'Bundestrainer',
+  'Flick'
 ];
 
 const regexPattern = '(^|\\W)(' + keywords.join('|') + ')($|\\W)';
