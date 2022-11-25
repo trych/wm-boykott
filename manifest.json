@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "WM-Boykott",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Verbirgt News-Artikel über die Fußballweltmeisterschaft 2022 in Katar auf deutschen News-Websites.",
 
   "content_scripts": [
